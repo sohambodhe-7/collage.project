@@ -257,3 +257,24 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .check-risk-button
+        {
+    display: inline-block;
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s 
+    ease, box-shadow 0.3s 
+    ease;
+    text-shadow: none;
+        }
+     
+
+        .check-risk-button:hover{
+                        transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
